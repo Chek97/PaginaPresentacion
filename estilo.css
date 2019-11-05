@@ -1,0 +1,71 @@
+/*----------------- BARRA NAVEGACION ---------------------------- */
+.barra-nav{
+
+	height: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #16516D;
+}
+
+.menu-nav{
+
+	display: inline-block;
+	/*Este atributo permite definir si van los puntos de la lista o no */
+	list-style-type: none;
+	text-align: center;
+}
+
+.menu-nav li{
+
+	display: inline-block;
+	text-align: center;
+	margin: 0 10px 0 0;
+	background-color: #44738a;
+	padding: 5px; 
+}
+
+.menu-nav li a{
+	color: white;
+	padding: 2px 7px 2px 7px;
+	/*Define si el texto es subrayado o no */
+	text-decoration: none;
+}
+
+.menu-nav li a:hover{
+
+	color: blue;
+
+}
+
+/*----------------- CAJA PRESENTACION ---------------------------- */
+
+.caja-presentacion{
+
+	background-color: #44738a;
+	margin-top: 10px;
+	overflow: hidden;
+	height: 300px;
+	color: white;
+
+}
+
+.caja1{
+
+	float: left;
+	width: 500px;
+	margin: 50px; 
+	padding: 10px;
+	/*Falta justificar el texto */
+	
+
+}
+
+.caja2{
+
+	float: right;
+	/*Revisar en futuro si genera problemas */
+	width: 25%;
+	margin: 50px;
+	/*Sigue la foto*/
+}
+
