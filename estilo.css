@@ -5,6 +5,7 @@
 	padding-top: 2px;
 	padding-bottom: 2px;
 	background-color: #16516D;
+
 }
 
 .menu-nav{
@@ -12,14 +13,14 @@
 	display: inline-block;
 	/*Este atributo permite definir si van los puntos de la lista o no */
 	list-style-type: none;
-	text-align: center;
+	
 }
 
 .menu-nav li{
 
 	display: inline-block;
 	text-align: center;
-	margin: 0 10px 0 0;
+	margin: 0 100px 0 0;
 	background-color: #44738a;
 	padding: 5px; 
 }
@@ -41,7 +42,7 @@
 
 .caja-presentacion{
 
-	background-color: #44738a;
+	background-color: #16516D;
 	margin-top: 10px;
 	overflow: hidden;
 	height: 500px;
@@ -72,7 +73,7 @@
 
 .foto-perfil{
 
-	width: 200px;
+	width: 300px;
 	display: block;
 	margin: auto;
 }
@@ -80,6 +81,7 @@
 .imagen-perfil{
 
 	width: 100%;
+	border-radius: 85px;
 
 }
 
@@ -90,5 +92,47 @@
 	border: white 1px solid;
 	background-color: white;
 	border-radius: 45px; 
+}
+
+table{
+
+	margin-top: 10px;
+	background-color: #16516D;
+	width: 100%;
+	text-align: center;
+}
+
+tr{
+	display: inline-block;
+	margin: 10px;
+	width: 300px;
+	
+}
+
+td{
+	background-color: #44738a;
+	width: 300px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.imagen-proyecto{
+
+	width: 250px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 20px;
+}
+
+td p{
+	text-align: justify;
+}
+
+td h2{
+	text-align: left;
+}
+
+body{
+	color: white;
 }
 
